@@ -7,7 +7,8 @@
 :root {
   --primary_color: #fff;
   --secondary_color: #000;
-  --grey: #ebecf0;
+  /* --grey: #ebecf0; */
+  --grey:#F7F7F7;
   --mobilefont: 0.7rem;
 }
 html{
@@ -243,6 +244,7 @@ article {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  background-color: var(--grey);
 }
 .premium_text_box {
   margin: 0rem 6rem;
@@ -584,6 +586,7 @@ article {
     height: 90vh;
     width: 80vw;
     position: fixed;
+    left: -80vw;
   }
 
   .nav_item {
