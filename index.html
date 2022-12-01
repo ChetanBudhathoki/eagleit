@@ -16,31 +16,25 @@
   </head>
   <body>
     <nav class="withpadding">
-      <div class="menubar">
-        <!-- <object class="menubar_icon"
-          data="./assets//icons/bars-solid.svg"
-          height="25"
-          width="25"
-        ></object> -->
-      </div>
+      <div class="menubar"></div>
       <div class="navbar_left">
         <a href=""> <img src="./assets/images/image 4.png" alt="logo" /></a>
       </div>
       <div class="navbar_middle">
-        <a href=""><li>Recipes</li></a>
-        <a href=""><li>Documents</li></a>
-        <a href=""><li>Warranty</li></a>
+        <a href="#prob"><li>Recipes</li></a>
+        <a href="#pan"><li>Documents</li></a>
+        <a href="#stove"><li>Warranty</li></a>
       </div>
       <div class="navbar_right">
         <a href="">SE</a>
       </div>
     </nav>
     <div class="dropdown_container">
-      <div class="nav_item"><a href="">Recipes</a></div>
+      <div class="nav_item"><a href="#prob">Recipes</a></div>
       <hr />
-      <div class="nav_item"><a href="">Documents</a></div>
+      <div class="nav_item"><a href="#pan">Documents</a></div>
       <hr />
-      <div class="nav_item"><a href="">Warranty</a></div>
+      <div class="nav_item"><a href="#stove">Warranty</a></div>
       <hr />
     </div>
 
@@ -67,16 +61,22 @@
       </div>
       <div class="product_description_card_box">
         <div class="card_box">
-          <!-- <div class="symbol_box"><span class="span-bold">C</span></div> -->
-          <strong>C</strong>
-          <p id="bold_p">Powered by ConnectLife</p>
-          <p>
+          <div class="copyright_container">
+            <p>C</p>
+          </div>
+          <p id="bold_p" class="card_box_description_title">
+            Powered by ConnectLife
+          </p>
+          <p class="card_box_description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
             natus deserunt laborum voluptate distinctio eius voluptatem commodi
             ad accusamus et alias optio eveniet soluta, cupiditate odit vero
             inventore, itaque libero.
           </p>
-          <div class="logos_box">here are logos</div>
+          <div class="logos_box">
+            <img src="./assets/images/appstorelogo.png" alt="" />
+            <img src="./assets/images/googleplaystorelogo.png" alt="" />
+          </div>
         </div>
       </div>
     </section>
@@ -85,7 +85,7 @@
       <img src="./assets/images/Main banner.png" alt="" />
     </section>
 
-    <section class="withpadding prob_container">
+    <section id="prob" class="withpadding prob_container">
       <div class="prob_title">
         <span class="span-bold">The probe.</span>
       </div>
@@ -115,6 +115,15 @@
             voluptates odit quo fuga perferendis, delectus dignissimos earum.
             Accusamus voluptatibus veniam reprehenderit explicabo qui.
           </p>
+          <div class="guided_recipes_footer_container">
+            <div class="progress_bar_parent">
+              <div class="progress_bar_child">2/5</div>
+            </div>
+            <div class="cooking_pot_container">
+              <img src="./assets/images/pot.png" alt="" />
+              <p>cooking</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -151,7 +160,7 @@
       </p>
     </section>
 
-    <section class="pan_container">
+    <section id="pan" class="pan_container">
       <div class="pan_image_container">
         <img src="./assets/images/image 3.png" alt="" />
       </div>
@@ -166,7 +175,7 @@
       </p>
     </section>
 
-    <section class="stoveimage">
+    <section id="stove" class="stoveimage">
       <div class="stoveimage_container">
         <div class="stoveimage_box">
           <img
@@ -194,5 +203,4 @@
     </section>
     <script src="./js/index.js"></script>
   </body>
- 
 </html>
