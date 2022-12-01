@@ -534,6 +534,9 @@ article {
   .recipe_guide_text_box_container {
     flex: unset;
   }
+  .recipe_guide_text_box_container{
+    padding: 1rem 0rem;
+  }
 
   .premium_container {
     height: unset;
