@@ -324,6 +324,10 @@ article {
   align-items: center;
   justify-content: center;
 }
+.stoveimage img:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
 .stoveimage_container {
   height: 70%;
   width: 100%;
@@ -365,6 +369,8 @@ article {
   height: 50%;
   width: 100%;
 }
+
+
 .stock_image_left_lower {
   padding-top: 0.4rem;
 }
